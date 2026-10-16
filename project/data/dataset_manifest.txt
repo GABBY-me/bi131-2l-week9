@@ -1,0 +1,168 @@
+$project
+[1] "TCGA-LUAD"
+
+$query
+$query$project
+[1] "TCGA-LUAD"
+
+$query$data.category
+[1] "Transcriptome Profiling"
+
+$query$data.type
+[1] "Gene Expression Quantification"
+
+$query$workflow.type
+[1] "STAR - Counts"
+
+$query$sample.type
+[1] "Primary Tumor"       "Solid Tissue Normal"
+
+$query$barcode
+  [1] "TCGA-38-4625-11A" "TCGA-38-4626-11A" "TCGA-38-4627-11A"
+  [4] "TCGA-38-4632-11A" "TCGA-44-2655-11A" "TCGA-44-2657-11A"
+  [7] "TCGA-44-2661-11A" "TCGA-44-2662-11A" "TCGA-44-2665-11A"
+ [10] "TCGA-44-2668-11A" "TCGA-44-3396-11A" "TCGA-44-3398-11B"
+ [13] "TCGA-44-5645-11A" "TCGA-44-6144-11A" "TCGA-44-6145-11A"
+ [16] "TCGA-44-6146-11A" "TCGA-44-6147-11A" "TCGA-44-6148-11A"
+ [19] "TCGA-44-6776-11A" "TCGA-44-6777-11A" "TCGA-44-6778-11A"
+ [22] "TCGA-49-4490-11A" "TCGA-49-4512-11A" "TCGA-49-6742-11A"
+ [25] "TCGA-49-6743-11A" "TCGA-49-6744-11A" "TCGA-49-6745-11A"
+ [28] "TCGA-49-6761-11A" "TCGA-50-5930-11A" "TCGA-50-5931-11A"
+ [31] "TCGA-50-5932-11A" "TCGA-50-5933-11A" "TCGA-50-5935-11A"
+ [34] "TCGA-50-5936-11A" "TCGA-50-5939-11A" "TCGA-50-6595-11A"
+ [37] "TCGA-55-6968-11A" "TCGA-55-6969-11A" "TCGA-55-6970-11A"
+ [40] "TCGA-55-6971-11A" "TCGA-55-6972-11A" "TCGA-55-6975-11A"
+ [43] "TCGA-55-6978-11A" "TCGA-55-6979-11A" "TCGA-55-6980-11A"
+ [46] "TCGA-55-6981-11A" "TCGA-55-6982-11A" "TCGA-55-6983-11A"
+ [49] "TCGA-55-6984-11A" "TCGA-55-6985-11A" "TCGA-05-4244-01A"
+ [52] "TCGA-05-4245-01A" "TCGA-05-4249-01A" "TCGA-05-4250-01A"
+ [55] "TCGA-05-4382-01A" "TCGA-05-4384-01A" "TCGA-05-4389-01A"
+ [58] "TCGA-05-4390-01A" "TCGA-05-4395-01A" "TCGA-05-4396-01A"
+ [61] "TCGA-05-4397-01A" "TCGA-05-4398-01A" "TCGA-05-4402-01A"
+ [64] "TCGA-05-4403-01A" "TCGA-05-4405-01A" "TCGA-05-4410-01A"
+ [67] "TCGA-05-4415-01A" "TCGA-05-4417-01A" "TCGA-05-4418-01A"
+ [70] "TCGA-05-4420-01A" "TCGA-05-4422-01A" "TCGA-05-4424-01A"
+ [73] "TCGA-05-4425-01A" "TCGA-05-4426-01A" "TCGA-05-4427-01A"
+ [76] "TCGA-05-4430-01A" "TCGA-05-4432-01A" "TCGA-05-4433-01A"
+ [79] "TCGA-05-4434-01A" "TCGA-05-5420-01A" "TCGA-05-5423-01A"
+ [82] "TCGA-05-5425-01A" "TCGA-05-5428-01A" "TCGA-05-5429-01A"
+ [85] "TCGA-05-5715-01A" "TCGA-35-3615-01A" "TCGA-35-4122-01A"
+ [88] "TCGA-35-4123-01A" "TCGA-35-5375-01A" "TCGA-38-4628-01A"
+ [91] "TCGA-38-4629-01A" "TCGA-38-4630-01A" "TCGA-38-4631-01A"
+ [94] "TCGA-38-6178-01A" "TCGA-38-7271-01A" "TCGA-38-A44F-01A"
+ [97] "TCGA-44-2656-01A" "TCGA-44-2659-01A" "TCGA-44-2666-01A"
+[100] "TCGA-44-3917-01A"
+
+
+$selected_samples
+           sample_id   patient_id tissue_source_site  label
+189 TCGA-38-4625-11A TCGA-38-4625                 38 Normal
+483 TCGA-38-4626-11A TCGA-38-4626                 38 Normal
+352 TCGA-38-4627-11A TCGA-38-4627                 38 Normal
+574 TCGA-38-4632-11A TCGA-38-4632                 38 Normal
+546 TCGA-44-2655-11A TCGA-44-2655                 44 Normal
+344 TCGA-44-2657-11A TCGA-44-2657                 44 Normal
+244 TCGA-44-2661-11A TCGA-44-2661                 44 Normal
+410 TCGA-44-2662-11A TCGA-44-2662                 44 Normal
+349 TCGA-44-2665-11A TCGA-44-2665                 44 Normal
+385 TCGA-44-2668-11A TCGA-44-2668                 44 Normal
+269 TCGA-44-3396-11A TCGA-44-3396                 44 Normal
+458 TCGA-44-3398-11B TCGA-44-3398                 44 Normal
+358 TCGA-44-5645-11A TCGA-44-5645                 44 Normal
+36  TCGA-44-6144-11A TCGA-44-6144                 44 Normal
+285 TCGA-44-6145-11A TCGA-44-6145                 44 Normal
+522 TCGA-44-6146-11A TCGA-44-6146                 44 Normal
+121 TCGA-44-6147-11A TCGA-44-6147                 44 Normal
+231 TCGA-44-6148-11A TCGA-44-6148                 44 Normal
+177 TCGA-44-6776-11A TCGA-44-6776                 44 Normal
+39  TCGA-44-6777-11A TCGA-44-6777                 44 Normal
+282 TCGA-44-6778-11A TCGA-44-6778                 44 Normal
+565 TCGA-49-4490-11A TCGA-49-4490                 49 Normal
+173 TCGA-49-4512-11A TCGA-49-4512                 49 Normal
+462 TCGA-49-6742-11A TCGA-49-6742                 49 Normal
+505 TCGA-49-6743-11A TCGA-49-6743                 49 Normal
+533 TCGA-49-6744-11A TCGA-49-6744                 49 Normal
+511 TCGA-49-6745-11A TCGA-49-6745                 49 Normal
+65  TCGA-49-6761-11A TCGA-49-6761                 49 Normal
+491 TCGA-50-5930-11A TCGA-50-5930                 50 Normal
+27  TCGA-50-5931-11A TCGA-50-5931                 50 Normal
+513 TCGA-50-5932-11A TCGA-50-5932                 50 Normal
+226 TCGA-50-5933-11A TCGA-50-5933                 50 Normal
+128 TCGA-50-5935-11A TCGA-50-5935                 50 Normal
+324 TCGA-50-5936-11A TCGA-50-5936                 50 Normal
+11  TCGA-50-5939-11A TCGA-50-5939                 50 Normal
+160 TCGA-50-6595-11A TCGA-50-6595                 50 Normal
+91  TCGA-55-6968-11A TCGA-55-6968                 55 Normal
+429 TCGA-55-6969-11A TCGA-55-6969                 55 Normal
+86  TCGA-55-6970-11A TCGA-55-6970                 55 Normal
+300 TCGA-55-6971-11A TCGA-55-6971                 55 Normal
+399 TCGA-55-6972-11A TCGA-55-6972                 55 Normal
+169 TCGA-55-6975-11A TCGA-55-6975                 55 Normal
+58  TCGA-55-6978-11A TCGA-55-6978                 55 Normal
+126 TCGA-55-6979-11A TCGA-55-6979                 55 Normal
+200 TCGA-55-6980-11A TCGA-55-6980                 55 Normal
+24  TCGA-55-6981-11A TCGA-55-6981                 55 Normal
+137 TCGA-55-6982-11A TCGA-55-6982                 55 Normal
+71  TCGA-55-6983-11A TCGA-55-6983                 55 Normal
+448 TCGA-55-6984-11A TCGA-55-6984                 55 Normal
+369 TCGA-55-6985-11A TCGA-55-6985                 55 Normal
+488 TCGA-05-4244-01A TCGA-05-4244                 05  Tumor
+119 TCGA-05-4245-01A TCGA-05-4245                 05  Tumor
+206 TCGA-05-4249-01A TCGA-05-4249                 05  Tumor
+318 TCGA-05-4250-01A TCGA-05-4250                 05  Tumor
+468 TCGA-05-4382-01A TCGA-05-4382                 05  Tumor
+120 TCGA-05-4384-01A TCGA-05-4384                 05  Tumor
+307 TCGA-05-4389-01A TCGA-05-4389                 05  Tumor
+345 TCGA-05-4390-01A TCGA-05-4390                 05  Tumor
+87  TCGA-05-4395-01A TCGA-05-4395                 05  Tumor
+179 TCGA-05-4396-01A TCGA-05-4396                 05  Tumor
+78  TCGA-05-4397-01A TCGA-05-4397                 05  Tumor
+43  TCGA-05-4398-01A TCGA-05-4398                 05  Tumor
+529 TCGA-05-4402-01A TCGA-05-4402                 05  Tumor
+417 TCGA-05-4403-01A TCGA-05-4403                 05  Tumor
+467 TCGA-05-4405-01A TCGA-05-4405                 05  Tumor
+251 TCGA-05-4410-01A TCGA-05-4410                 05  Tumor
+419 TCGA-05-4415-01A TCGA-05-4415                 05  Tumor
+107 TCGA-05-4417-01A TCGA-05-4417                 05  Tumor
+114 TCGA-05-4418-01A TCGA-05-4418                 05  Tumor
+268 TCGA-05-4420-01A TCGA-05-4420                 05  Tumor
+273 TCGA-05-4422-01A TCGA-05-4422                 05  Tumor
+147 TCGA-05-4424-01A TCGA-05-4424                 05  Tumor
+81  TCGA-05-4425-01A TCGA-05-4425                 05  Tumor
+136 TCGA-05-4426-01A TCGA-05-4426                 05  Tumor
+475 TCGA-05-4427-01A TCGA-05-4427                 05  Tumor
+487 TCGA-05-4430-01A TCGA-05-4430                 05  Tumor
+446 TCGA-05-4432-01A TCGA-05-4432                 05  Tumor
+109 TCGA-05-4433-01A TCGA-05-4433                 05  Tumor
+524 TCGA-05-4434-01A TCGA-05-4434                 05  Tumor
+521 TCGA-05-5420-01A TCGA-05-5420                 05  Tumor
+202 TCGA-05-5423-01A TCGA-05-5423                 05  Tumor
+584 TCGA-05-5425-01A TCGA-05-5425                 05  Tumor
+271 TCGA-05-5428-01A TCGA-05-5428                 05  Tumor
+149 TCGA-05-5429-01A TCGA-05-5429                 05  Tumor
+365 TCGA-05-5715-01A TCGA-05-5715                 05  Tumor
+375 TCGA-35-3615-01A TCGA-35-3615                 35  Tumor
+141 TCGA-35-4122-01A TCGA-35-4122                 35  Tumor
+566 TCGA-35-4123-01A TCGA-35-4123                 35  Tumor
+76  TCGA-35-5375-01A TCGA-35-5375                 35  Tumor
+407 TCGA-38-4628-01A TCGA-38-4628                 38  Tumor
+125 TCGA-38-4629-01A TCGA-38-4629                 38  Tumor
+117 TCGA-38-4630-01A TCGA-38-4630                 38  Tumor
+2   TCGA-38-4631-01A TCGA-38-4631                 38  Tumor
+469 TCGA-38-6178-01A TCGA-38-6178                 38  Tumor
+243 TCGA-38-7271-01A TCGA-38-7271                 38  Tumor
+485 TCGA-38-A44F-01A TCGA-38-A44F                 38  Tumor
+59  TCGA-44-2656-01A TCGA-44-2656                 44  Tumor
+461 TCGA-44-2659-01A TCGA-44-2659                 44  Tumor
+362 TCGA-44-2666-01A TCGA-44-2666                 44  Tumor
+22  TCGA-44-3917-01A TCGA-44-3917                 44  Tumor
+
+$gdc_retrieval_date
+[1] "2026-09-28"
+
+$source_assay
+[1] "STAR - Counts: unstranded"
+
+$transform
+[1] "log2(CPM + 1)"
+
